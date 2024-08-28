@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="banner">
+                <div class="banner-text" style="font-family:Brush Script MT">Sustain, Safe & Sound</div>
+            </div>
+            
+        <div class="container-fluid" style="color:rgb(168, 178, 198);background:rgb(13, 102, 44);font-family:Forte;font-size:60px;">Sustainabilty Environment Ensurement</div>
+        <nav class="navbar navbar-default" sttle="position:fixed;top:0;width:100%">
+            <div class="container-fluid" style="background:rgb(205, 229, 205)">
+                <div class="nav navbar-nav" style="font-size:20px"><a href="#sustainablity">Sustainabe Development Goals</a></div>
+                <ul class="nav navbar-nav" style="display:inline-block;font-size:20px">
+                    <li><a href="#Home" style="padding: 2rem;">Home</a></li>
+                    <li><a href="/about.html" style="padding: 2rem;">About</a></li>
+                    <li><a href="#Info" style="padding: 2rem;">Info</a></li>
+                    <li><a href="More" style="padding: 2rem;">More</a></li>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </ul>
+            </div>
+        </nav>
+        </div><br>
+        <section id="sli">
+            <div class="slide-wrapper">
+               <div class="slider">
+                   <img src="sdg-bd.jpg" id="slide-1">
+                   <img src="Sustainable-Development-Goals.webp" id="slide-2">
+                   <img src="5p_principles.png" id="slide-3">
+                   <img src="Building-Blocks-t4.png" id="slide-4">
+               </div>
+               <div class="slider-nav">
+                   <a href="#slide-1"></a>
+                   <a href="#slide-2"></a>
+                   <a href="#slide-3"></a>
+                   <a href="#slide-4"></a>
+               </div>
+            </div>
+       </section>
+        
+        <!-- <div class="container">
+            <div class="row text-centered">
+                <div class="col-3">
+                    <img src="SDG BD.jpg" width="50%" height="55px">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-3">Home</div>
+                        <img src="" width="70%" height="65px">Text
+                        <div class="col-3">About</div>
+                        <div class="col-3">Info</div>
+                        <div class="col-3">More</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container ">
+            <div class="row">
+            <div class="col-md-4"  id="bc">
+                <h2 style="font-family:Caveat" id="bk">17 Strategies of SDG</h2>
+                <ul style="font-size:19px; padding:2rem; text-align:left;font-family:Monotype Corsiva;" id="clr">
+                    <li><button onclick="show_sdg1()">No Poverty</button></li>
+                    <div id="sdg1" class="hidden">
+                        <!-- <h1>No Poverty</h1> -->
+                        <p>End poverty in all its forms everywhere, ensuring that everyone has access to basic resources and services.
+
+                        </p>
+                        <button onclick="closes_details()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg2()">Zero Hunger</button></li>
+                    <div id="sdg2" class="hidden">
+                        <p> Achieve food security, improve nutrition, and promote sustainable agriculture to ensure everyone has enough nutritious food.</p>
+                        <button onclick="close_details()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg3()">Good Health & Wellbeing</button></li>
+                    <div id="sdg3" class="hidden">
+                        <p> Ensure healthy lives and promote well-being for all at all ages, aiming to reduce mortality rates and improve health services.</p>
+                        <button onclick="close()">Close</button>
+
+                    </div>
+                    <li><button onclick="show_sdg4()">Quality Education</button></li>
+                    <div id="sdg4" class="hidden">
+                        <p>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all, focusing on literacy, numeracy, and skills development.</p>
+                        <button onclick="details()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg5()">Gender Equality</button></li>
+                    <div id="sdg5" class="hidden">
+                        <p> Achieve gender equality and empower all women and girls, eliminating discrimination and violence against them.</p>
+                        <button onclick="closing()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg6()">Clean Water and Sanitation</button></li>
+                    <div id="sdg6" class="hidden">
+                        <p>Ensure availability and sustainable management of water and sanitation for all, improving water quality and access to safe drinking water.</p>
+                        <button onclick="cancel()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg7()">Affordable & Clean Energy</button></li>
+                    <div id="sdg7" class="hidden">
+                        <p>Ensure access to affordable, reliable, sustainable, and modern energy for all, increasing the share of renewable energy.</p>
+                        <button onclick="prohibite()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg8()">Decent Work & Economic Growth</button></li>
+                    <div id="sdg8" class="hidden">
+                        <p>Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.</p>
+                        <button onclick="nope()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg9()">Industry, Innovation, & Infrastructure</button></li>
+                    <div id="sdg9" class="hidden">
+                        <p> Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation to support economic development and human well-being.</p>
+                        <button onclick="noh()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg10()">Reduce Inequalities</button></li>
+                    <div id="sdg10" class="hidden">
+                        <p>Reduce inequality within and among countries, ensuring equal opportunities and reducing disparities in income, education, and health.</p>
+                        <button onclick="deny()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg11()">Sustainable Cities & Communities</button></li>
+                    <div id="sdg11" class="hidden">
+                        <p>Make cities and human settlements inclusive, safe, resilient, and sustainable, improving urban planning and management.</p>
+                        <button onclick="done()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg12()">Responsible Consumption & Production</button></li>
+                    <div id="sdg12" class="hidden">
+                        <p>Ensure sustainable consumption and production patterns, reducing waste and promoting resource efficiency.</p>
+                        <button onclick="reject()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg13()">Climate Action</button></li>
+                    <div id="sdg13" class="hidden">
+                        <p>Take urgent action to combat climate change and its impacts, implementing strategies to reduce greenhouse gas emissions and adapt to climate-related risks.</p>
+                        <button onclick="out()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg14()">Life Below Water</button></li>
+                    <div id="sdg14" class="hidden">
+                        <p>Conserve and sustainably use the oceans, seas, and marine resources, protecting marine ecosystems and reducing pollution.</p>
+                        <button onclick="left()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg15()">Life on Land</button></li>
+                    <div id="sdg15" class="hidden">
+                        <p> Protect, restore, and promote sustainable use of terrestrial ecosystems, manage forests sustainably, combat desertification, and halt biodiversity loss.
+
+                        </p>
+                        <button onclick="cancel_out()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg16()">Peace, Justice & Strong Institutions</button></li>
+                    <div id="sdg16" class="hidden">
+                        <p> Promote peaceful and inclusive societies, provide access to justice for all, and build effective, accountable institutions at all levels.</p>
+                        <button onclick="denied()">Close</button>
+                    </div>
+                    <li><button onclick="show_sdg17()">Partnership for the Goals</button></li>
+                    <div id="sdg17" class="hidden">
+                        <p>Strengthen the means of implementation and revitalize the global partnership for sustainable development, enhancing cooperation between governments, the private sector, and civil society.</p>
+                        <button onclick="denies()">Close</button>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="row section1">
+                    <div class="col-md-4">
+                        <img src="SDG-Pic-1.png" width="100%" height="200px" style="margin:0 auto">
+    
+                    </div>
+                    <div class="col-md-8">
+    
+                        <h2 style="color:rgb(163, 213, 170)">What is actually Sustainabilty?</h2>
+                        <p style="color:rgb(73, 106, 59);font-family:Bodoni MT;font-size:24px">Sustainability refers to the ability to meet the current needs of society without compromising the future. In 1987, the United Nations' Brundtland Commission defined sustainability as, “meeting the needs of the present without compromising the ability of future generations to meet their own needs.”</p>
+                    </div>
+                </div>
+            
+            <div class="section2">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="istockphoto.jpg" width="100%" height="300px">
+                    </div>
+                    <div class="col-8">
+                        <p style="color:rgb(19, 65, 29);font-family:Dosis Extrabold;font-size:40px">What is our goal?</p>
+                        <ul style="color:rgb(73, 103, 73);font-family:Bodoni MT;font-size:24px">
+                            <li>Foremostly we will help our country (Bangladesh) to reach SDG.</li>
+                            <li>We will help other Government & Non-Government development organizations to increase their customer care.</li>
+                            <li>We can provide space for jobs as we have a huge unemployed population.</li>
+                            <li>Not only can we achieve SDG goals but we can ensure a safe environment.</li>
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <section id="sli">
+                 <div class="slide-wrapper">
+                    <div class="slider">
+                        <img src="sdg-bd.jpg" id="slide-1">
+                        <img src="Sustainable-Development-Goals.webp" id="slide-2">
+                        <img src="5p_principles.png" id="slide-3">
+                        <img src="Building-Blocks-t4.png" id="slide-4">
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                        <a href="#slide-4"></a>
+                    </div>
+                 </div>
+            </section> -->
+         </div>
+        </div>
+        </div>
+
+            
+        <footer>
+            <div class="container-fluid p-3 px-5" style="background:rgb(69, 120, 69);">
+                <h1 style="font-family: Bodoni MT ; color:azure;">Contact us on:</h1>
+                <!-- <div class="col-3 media_link btn">
+                            <div class="row media_link m-2" style="font-size:24px">
+                            <div class="col-6 text-white">Phone</div>
+                            <div class="col-6"><i class="fa-solid fa-phone"></i></div>
+                            </div> -->
+                            <h6 style="font-family: Bodoni MT ; color:azure;"><i class="fa-solid fa-phone">+880 12345 - 67891</i></h6>
+                            <h6 style="font-family: Bodoni MT ; color:azure;"><i class="fa-solid fa-globe">ISO-3166-1</i></h6>
+                            <div class="row">
+                    <div class="col-3 media_link btn">
+                        <div class="row media_link m-2" style="font-size:24px">
+                        <div class="col-6 text-white">Facebook</div>
+                        <div class="col-6 justify-content-end p-1"><i class="fa-brands fa-facebook"></i></div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="col-3 media_link btn">
+                        <div class="row media_link m-2" style="font-size:24px">
+                            <div class="col-6 text-white">Twitter</div>
+                            <div class="col-6 justify-content-end p-1"><i class="fa-brands fa-twitter"></i></div>
+                            </div>
+                            
+                    </div>
+                    <div class="col-3 btn ">
+                        <div class="row media_link m-2" style="font-size:24px">
+                            <div class="col-6 text-white">Linked In</div>
+                            <div class="col-6 justify-content-end p-1"><i class="fa-brands fa-linkedin-in"></i></div>
+                            </div>
+    
+                    </div>
+                    <div class="col-3 btn">
+                        <div class="row media_link m-2" style="font-size:24px">
+                            <div class="col-6" >Email</div>
+                            <div class="col-6  justify-content-end p-1"><i class="fa-solid fa-envelope"></i></div>
+                            </div>
+    
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        <script src="Calculator/script.js">
+        
+        </script>
+    </body>
+    
+</html>

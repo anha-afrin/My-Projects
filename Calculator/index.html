@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+
+<!-- <p id="example"></p>
+
+<p id="result"></p> -->
+
+<div id="calculator">
+
+<input id="display" readonly>
+
+<div id="keys">
+
+<button onclick="appendToDisplay('+')" class="operator btn">+</button>
+
+<button onclick="appendToDisplay('7')">7</button>
+
+<button onclick="appendToDisplay('8')">8</button>
+
+<button onclick="appendToDisplay('9')">9</button>
+
+<button onclick="appendToDisplay('-')" class="operator btn">-</button>
+
+<button onclick="appendToDisplay('4')">4</button>
+
+<button onclick="appendToDisplay('5')">5</button>
+
+<button onclick="appendToDisplay('6')">6</button>
+
+<button onclick="appendToDisplay('*')" class="operator btn">*</button>
+
+<button onclick="appendToDisplay('1')">1</button>
+
+<button onclick="appendToDisplay('2')">2</button>
+
+<button onclick="appendToDisplay('3')">3</button>
+
+<button onclick="appendToDisplay('/')" class="operator btn">/</button>
+
+<button onclick="appendToDisplay('0')">0</button>
+
+<button onclick="appendToDisplay('.')">.</button>
+
+<button onclick="calculate()">=</button>
+
+<button onclick="clearDisplay()" class="operator btn">C</button>
+
+</div>
+
+</div>
+
+<div id="info"></div>
+</body>
+<script>
+
+// Example calculation
+
+var a = 250;
+
+var b = 350;
+
+var sum = a + b;
+
+document.getElementById("result").innerHTML = "Total sum of 250 & 350 is: " + sum;
+
+// String manipulation example
+
+var x = " as an example";
+
+document.getElementById("example").innerHTML = x.toUpperCase();
+
+// Object display
+
+var information = {
+
+topic: "Mathematics",
+
+subject: "Calculator",
+
+grade: "1 to 10",
+
+};
+
+document.getElementById("info").innerHTML = "Topic: " + information.topic + ", Subject: " + information.subject + ", Grade: " + information.grade;
+
+// Array iteration
+
+var system = ["Addition", "Subtraction", "Division", "Multiplication"];
+
+var systemList = document.createElement("ul"); // Create a list element
+
+for (var i = 0; i < system.length; i++) {
+
+var listItem = document.createElement("li"); // Create a list item element
+
+listItem.textContent = system[i]; // Set the text content of the list item
+
+systemList.appendChild(listItem); // Append the list item to the list
+
+}
+
+document.body.appendChild(systemList); // Append the list to the body
+
+</script>
+
+
+ 
+    <script src="script.js"></script>
+
+</html>

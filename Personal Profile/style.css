@@ -1,0 +1,13 @@
+.banner{
+    background-image:url("");
+    position:relative;
+    width:auto;
+    height:auto;
+    background-size:cover;
+    background-position:center;
+}
+.banner-text{
+    font-size:28px;
+    font-family:Bodoni Mt;
+    color:rgb(131, 91, 168)
+}
